@@ -1,5 +1,5 @@
 // Belajar datatype dasar
-
+// Terdapat beberapa tipe byte seperti 16,32,64 dsj.
 fn main(){
     let angka_integer: i32 = -10;
     let angka_unsigned: u32 = 100;
