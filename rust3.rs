@@ -7,7 +7,8 @@
 //         println!("Angka {}, adalah bilangan ganjil",angka);
 //     }
 // }
-use std::io;
+// use std::io; // By default dengan menggunakan ini inputan user akan otomatis spacing ke new line
+use std::io::Write; // Untuk menulis ke console
 fn main(){
     println!("Silahkan masukkan angka : ");
     let mut input = String::new(); // Ini untuk proses pembuatan variabel input
